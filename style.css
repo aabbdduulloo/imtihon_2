@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+body
+{
+    background-color: #EDF3F8;
+    font-family: 'Public Sans', sans-serif;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+input
+{
+    outline: none;
+}
+
+nav
+{
+    position: relative;
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 88;
+}
+.nav_item:hover
+{
+    background-color: red;
+    border-radius: 10px;
+}
+.nav_item:active
+{
+    background-color: green;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: rgb(3, 255, 3);
+}
+nav .nav_links
+{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+nav .nav_links .nav_item{
+    color: #000;
+    transition: .3s;
+    position: relative;
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 48px;
+    width: 143px;
+    position: relative;
+    left: 150px;
+    border-radius: 40px;
+    background-color: #BA4270;    
+}
+li
+{
+    margin-right: 100px;
+    height: 18px;
+    width: 44px;
+    left: 290px;
+    top: 16px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#36536B;
+    
+    font-family: 'Public Sans', sans-serif;
+        
+}
+.phone_shadow1
+{
+    height: 780px;
+    width: 780px;
+    left: 800px;
+    top: -172px;
+    border-radius: 0px;
+    position: absolute;
+    mix-blend-mode: normal;
+    opacity: 0.15;    
+}
+.phone_img
+{
+    height: 500px;
+    width: 283px;
+    left: 917px;
+    top: 162px;
+    position: absolute;
+    background-size: cover;
+}
+.right_section
+{
+    height: 345px;
+    width: 546px;
+    left: 165px;
+    top: 240px;
+    border-radius: 0px;
+    position: absolute;
+}
+.text
+{
+    height: 243px;
+    width: 546px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 62px;
+    text-align: left;
+}
+.email
+{
+    height: 48px;
+    width: 445px;
+    left: 0px;
+    top: 264px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #fff; 
+    position: absolute;   
+}
+.send
+{
+    height: 48px;
+    width: 173px;
+    left: 272px;
+    top: 264px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #BA4270;
+    color: #fff;
+}
+.phone_text
+{
+    position: absolute;
+    height: 87px;
+    width: 148px;
+    left: 967px;
+    top: 329px;
+    border-radius: 8px;
+    background-color: #FBFCFE;    
+}
+.paypi
+{
+    height: 11px;
+    width: 187px;
+    left: 16px;
+    top: 16px;
+    border-radius: 0px;
+    position: absolute;
+    font-family: Public Sans;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.dollor_text
+{
+    height: 42px;
+    width: 187px;
+    left: 16px;
+    top: 31px;
+    font-family: Public Sans;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    font-family: Public Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;    
+    
+}
+.question
+{
+    position: absolute;
+    height: 18px;
+    width: 225px;
+    left: 27px;
+    top: 328px;
+    border-radius: ;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#36536B;
+    
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.who_we_work
+{
+    height: 472px;
+    width: 1240px;
+    left: 0px;
+    top: 607px;
+    border-radius: 0px;
+    background: #1B262F;    
+    position: relative;  
+    display: flex;
+    align-items: center;
+}
+.left_section
+{
+    height: 272px;
+    width: 445px;
+    left: 165px;
+    top: 837px;
+    border-radius: 0px;
+    margin-left: 140px;  
+
+}
+.who
+{
+    height: 56px;
+    width: 445px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    color: #fff;    
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    
+}
+.text_who
+{
+    position: relative;
+    height: 112px;
+    width: 445px;
+    left: 0px;
+    top: 50px;
+    border-radius: nullpx;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;        
+}
+.about_text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 109px;
+    position:absolute;
+    border-radius: 0px;
+    border-radius: 20px;
+    bottom: 80px;
+    left: 140px;
+    background-size: 12px;
+    background: white;
+}
+.group
+{
+    height: 100px;
+    width: 520px;
+    position: absolute;   
+    left: 450px; 
+    bottom: 276px;
+}
+.boxs
+{
+    height: 284px;
+    width: 1015px;
+    position: absolute;
+    top: 600px;
+    left: 120px;
+}
+.left_card
+{
+    height: 284px;
+    width: 445px;
+    background-color: #2E3F4D;
+}
+.right_card
+{
+    position: absolute;
+    height: 164px;
+    width: 445px;
+    left: 507px;
+    bottom: 60px;
+    border-radius: 0px;   
+}
+.radius
+{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.text_card
+{
+    height: 180px;
+    width: 381px;
+    left: 32px;
+    top: 44px;
+    border-radius: nullpx;
+    font-family: Roboto Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    position: absolute;        
+}
+.h1
+{
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    position: relative;
+    bottom: 40px;
+}
+.easy
+{
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6C8294;    
+}
+.simple
+{
+    position: relative;
+    height: 382px;
+    width: 445px;
+    border-radius: 0px;
+    top: 150px;
+    font-family: DM Serif Display;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: -0.3692307770252228px;
+    text-align: left;
+    color:#6C8294;
+    
+    
+}
+.pos
+{
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#6C8294;
+    position: relative;
+    top: 50px;
+}
+.left_phone
+{
+    display: flex;
+    position: relative;
+    left: 380px;
+    bottom: 260px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.btn {
+  color: #fff;
+  background: #ba4270;
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+
+.container {
+  width: 100%;
+  padding: 100px;
+}
+.container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.container .wrapper .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .wrapper .card-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #36536b;
+  color: #fff;
+  font-size: 2rem;
+}
+.container .wrapper .card-title {
+  color: #36536b;
+  margin-bottom: 15px;
+}
+.container .wrapper .card p {
+  color: #36536b;
+}
+.container .wrapper .title {
+  font-size: 3.25rem;
+}
+.container .wrapper .input-box {
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 10px;
+  padding-left: 18px;
+  
+}
+.container .wrapper .input-box input {
+  background: transparent;
+}/*# sourceMappingURL=main.css.map */
